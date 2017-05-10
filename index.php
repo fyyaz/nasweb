@@ -28,6 +28,6 @@ foreach ($disks as $disk) {
 	}
 
 	$df = round($df, 2);
-	echo "$disk: $df $str left\n";
+	echo "$disk: $df $str left<br>";
 }
 ?>
